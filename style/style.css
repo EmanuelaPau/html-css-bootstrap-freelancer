@@ -1,8 +1,12 @@
 /* Texts */
 
-h1 {}
+h1 {
+    font-size: 10px;
+}
 
-h2 {}
+h2 { 
+    font-size: 2rem;
+}
 
 h3 {}
 
@@ -18,3 +22,13 @@ h3 {}
 /* UTILITIES */
 
 /* Colors */
+
+.ms-bg-color-white {
+    background-color: white;
+}
+
+.ms-bg-color-red {
+    height: 50px;
+    background-color: red;
+    border: 2px solid black;
+}
