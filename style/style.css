@@ -56,10 +56,16 @@ section.portfolio h3 {
 }
 
 .social-container {
+    
     border: 1px solid white;
     border-radius: 50%;
-    width: 55px;
-    height: 55px;
+    aspect-ratio: 1 / 1;
+}
+
+.social-container i{
+    height: 1.4rem;
+    font-size: 1.4rem;
+    width: 100%;
 }
 
 .footer-copyrigth {
