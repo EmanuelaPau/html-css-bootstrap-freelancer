@@ -46,6 +46,8 @@ section.portfolio h3 {
     border-radius: 10px;
 }
 
+/* About */
+
 /* FOOTER */
 
 /* UTILITIES */
@@ -64,6 +66,10 @@ section.portfolio h3 {
     color: black;
 }
 
+.ms-txt-white {
+    color:white;
+}
+
 .ms-bg-color-red {
     height: 50px;
     background-color: red;
@@ -74,4 +80,8 @@ section.portfolio h3 {
     height: 50px;
     background-color: blue;
     border: 2px solid black;
+}
+
+.ms-bg-color-green {
+    background-color: #1abc9c;
 }
