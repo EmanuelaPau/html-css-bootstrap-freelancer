@@ -1,7 +1,7 @@
 /* Texts */
 
 h1 {
-    font-size: 10px;
+    font-size: 2rem;
 }
 
 h2 { 
@@ -27,8 +27,23 @@ h3 {}
     background-color: white;
 }
 
+.ms-txt-black {
+    color: black;
+}
+
 .ms-bg-color-red {
     height: 50px;
     background-color: red;
     border: 2px solid black;
+}
+
+.ms-bg-color-blue {
+    height: 50px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.portfolio {
+    height: 500px;
+    background-color: beige;
 }
