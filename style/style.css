@@ -37,6 +37,15 @@ i.star {
 }
 /* MAIN */
 
+/* Portfolio */
+section.portfolio h3 {
+    text-align: center;
+}
+
+.project-img{
+    border-radius: 10px;
+}
+
 /* FOOTER */
 
 /* UTILITIES */
@@ -65,9 +74,4 @@ i.star {
     height: 50px;
     background-color: blue;
     border: 2px solid black;
-}
-
-.portfolio {
-    height: 500px;
-    background-color: beige;
 }
