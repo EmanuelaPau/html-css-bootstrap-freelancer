@@ -1,12 +1,12 @@
 /* Texts */
 
-h1 {
-    font-size: 2rem;
+.ms-h1 {
+    font-size: 3.5rem;
 }
 
-h2 { 
-    font-size: 2rem;
-}
+/* .ms-h2 { 
+    font-size: 1.1rem;
+} */
 
 h3 {}
 
@@ -14,6 +14,26 @@ h3 {}
 .ms-header-container {
     background-color: #1abc9c;
     color: white;
+}
+
+.ms-img-container {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.ms-img-container img {
+    width: 100%;
+}
+
+.star-line {
+    height: 3px;
+    border-radius: 1.5px;
+}
+
+i.star {
+    width: 100%;
+    font-size: 1.8rem;
+    width: 100%;
 }
 /* MAIN */
 
@@ -25,6 +45,10 @@ h3 {}
 
 .ms-bg-color-white {
     background-color: white;
+}
+
+.ms-bg-color-black {
+    background-color: black;
 }
 
 .ms-txt-black {
