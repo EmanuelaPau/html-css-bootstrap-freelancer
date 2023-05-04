@@ -1,16 +1,19 @@
+.font-page {
+    font: arial;
+}
+
 /* Texts */
 
 .ms-h1 {
     font-size: 3.5rem;
 }
 
-/* .ms-h2 { 
-    font-size: 1.1rem;
-} */
-
-
-
 /* HEADER */
+
+/* Navbar */
+
+
+/* Jumbo */
 .ms-header-container {
     background-color: #1abc9c;
     color: white;
@@ -124,6 +127,10 @@ section.portfolio h3 {
 
 .ms-bg-color-green {
     background-color: #1abc9c;
+}
+
+.ms-bg-color-nav {
+    background-color: #2c3e50;
 }
 
 a.ms-link {
