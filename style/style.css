@@ -4,8 +4,34 @@
 
 /* Texts */
 
-.ms-h1 {
-    font-size: 3.5rem;
+.mt_nav-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.mt_nav-txt {
+    font-weight: 600;
+}
+
+.mt_page-title {
+    font-size: 3.8rem;
+}
+
+.mt_job-title {
+    font-size: 1.6rem;
+}
+
+.mt_section-title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.mt-footer-title {
+    font-size:1.7rem
+}
+
+.mt-txt {
+    font-size: 1.2rem;
 }
 
 /* HEADER */
@@ -14,6 +40,9 @@
 
 
 /* Jumbo */
+.jumbo {
+   padding: 40px 0;
+}
 .ms-header-container {
     background-color: #1abc9c;
     color: white;
@@ -136,4 +165,14 @@ section.portfolio h3 {
 a.ms-link {
     text-decoration: none;
     color: #1daf96;
+}
+
+.ms-form-placeholder::-moz-placeholder {
+    color: black;
+    opacity: 1;
+  }
+
+.ms-form-placeholder::placeholder {
+    color: black;
+    opacity: 1;
 }

@@ -33,7 +33,7 @@
                 <div class="nav ms-bg-color-nav ">
                     <nav class="navbar navbar-expand-md navbar-dark px-1 py-3 justify-content-between container">
                         <!-- <div class="container"> -->
-                            <h1 class="text-uppercase"><a class="text-reset text-decoration-none" href="">Start bootstrap</a></h1>
+                            <h1 class="text-uppercase mt_nav-title"><a class="text-reset text-decoration-none" href="">Start bootstrap</a></h1>
     
                             <!-- Toggler -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,18 +42,18 @@
     
                             <!-- menu testuale -->
                             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav text-uppercase ms-auto">
+                            <ul class="navbar-nav text-uppercase ms-auto mt_nav-txt">
     
-                                <li class="nav-item active">
-                                    <a class="nav-link font-weight-bold" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-bold ms-txt-white" href="#">Portfolio <span class="sr-only">(current)</span></a>
                                 </li>
     
-                                <li class="nav-item active">
-                                    <a class="nav-link font-weight-bold" href="#">About <span class="sr-only">(current)</span></a>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-bold ms-txt-white" href="#">About <span class="sr-only">(current)</span></a>
                                 </li>
     
-                                <li class="nav-item active">
-                                    <a class="nav-link font-weight-bold" href="#">Contact <span class="sr-only">(current)</span></a>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-bold ms-txt-white" href="#">Contact <span class="sr-only">(current)</span></a>
                                 </li>
     
                             </ul>
@@ -62,15 +62,15 @@
                       </nav>
                 </div>
 
-                <div class="container py-4 mb-5">
+                <div class="container py-4 mb-5 ">
                     <div class="row">
-                        <div class="col-12 col-md-8 mx-auto">
+                        <div class="col-12 col-md-8 mx-auto jumbo">
                             <!-- Immagine -->
                             <div class="ms-img-container mb-3">
                                 <img src="img/avatar.svg" alt="avatar image">
                              </div>
 
-                            <h2 class="ms-h1 mb-3 text-center text-uppercase">
+                            <h2 class="mt_page-title mb-3 text-center text-uppercase">
                                 Start Bootstrap
                             </h2>
 
@@ -83,7 +83,7 @@
                                 <div class="star-line ms-bg-color-white"></div>
                             </div>
 
-                            <h3 class="ms-h2 text-center text-uppercase">
+                            <h3 class="mt_job-title text-center text-uppercase">
                                 Graphic Artist - Web Designer - Illustrator
                             </h3>
                         </div>
@@ -94,7 +94,7 @@
             <main>
                 <!-- Portfolio header  -->
                 <section class="portfolio text-uppercase">
-                    <h4 class="text-center mb-3">Portfolio</h4>
+                    <h4 class="text-center mb-3 mt_section-title">Portfolio</h4>
 
                     <!-- star divider -->
                     <div class="star-divider-container px-5 px-md-0 d-flex align-items-center justify-content-between">
@@ -139,7 +139,7 @@
                 <!-- About -->
                 <section class="about ms-txt-white ms-bg-color-green p-4 p-md-5">
                    <div class="ms-wrapper"> 
-                        <h4 class="text-center text-uppercase">About</h4>
+                        <h4 class="text-center text-uppercase mt_section-title">About</h4>
 
                         <!-- star divider -->
                         <div class="star-divider-container px-5 px-md-0 d-flex align-items-center justify-content-between">
@@ -153,13 +153,13 @@
                         <div class="container-fluid">
                             <div class="row mb-4">
                                 <div class="col-12 col-md-6">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae nihil temporibus aut ullam deleniti, reprehenderit quo aperiam, nisi culpa necessitatibus officia quia odit, porro esse inventore natus eligendi ratione.
+                                    <p class="mt-txt">
+                                        Freelancer is a free bootsrap theme created by Start Bootstrap. The download includes the coplete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheet for easy customization.
                                     </p>
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae nihil temporibus aut ullam deleniti, reprehenderit quo aperiam, nisi culpa necessitatibus officia quia odit, porro esse inventore natus eligendi ratione.
+                                    <p class="mt-txt">
+                                        Wether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                                     </p>
                                 </div>
                             </div>
@@ -183,7 +183,16 @@
                         <div class="container-fluid">
                             <div class="row justify-content-center">
                                 <div class="ms-about-container col-12">
-                                    <h4 class="mb-3 text-center text-uppercase">Contact me</h4>
+                                    <h4 class="mb-3 text-center text-uppercase mt_section-title">Contact me</h4>
+                                </div>
+
+                                 <!-- star divider -->
+                                <div class="star-divider-container px-5 px-md-0 d-flex align-items-center justify-content-between">
+                                    <div class="star-line ms-bg-color-black"></div>
+                                    <div class="col-1 text-center">
+                                        <i class="fa-solid fa-star star"></i>
+                                    </div>
+                                    <div class="star-line ms-bg-color-black"></div>
                                 </div>
 
                                 <div class="col-12">
@@ -192,21 +201,21 @@
                                         <!-- Name  -->
                                         <div class="form-group row">
                                             <div class="col-sm-12">
-                                                <input type="text" class="form-control border-0 border-bottom pb-2" id="inputName" placeholder="Name">
+                                                <input type="text" class="form-control ms-form-placeholder border-0  border-bottom pb-2 rounded-0 table-dark" id="inputName" placeholder="Name">
                                             </div>
                                         </div>
 
                                         <!-- Email  -->
                                         <div class="form-group row">
                                             <div class="col-sm-12">
-                                                <input type="email" class="form-control border-0 border-bottom pb-2" id="inputEmail3" placeholder="Email">
+                                                <input type="email" class="form-control ms-form-placeholder border-0 border-bottom pb-2 rounded-0" id="inputEmail3" placeholder="Email">
                                             </div>
                                         </div>
 
                                         <!-- Phone number  -->
                                         <div class="form-group row">
                                             <div class="col-sm-12">
-                                                <input type="tel" class="form-control border-0 border-bottom pb-2" id="inputPhoneNumber" placeholder="Phone number">
+                                                <input type="tel" class="form-control ms-form-placeholder border-0 border-bottom pb-2 rounded-0" id="inputPhoneNumber" placeholder="Phone number">
                                             </div>
                                         </div>
 
@@ -214,7 +223,7 @@
 
                                         <div class="form-group mb-2">
                                             
-                                            <textarea class="form-control border-0 border-bottom pb-2" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                                            <textarea class="form-control ms-form-placeholder border-0 border-bottom pb-2 rounded-0" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
                                           </div>
                                         
                                         <!-- Button -->
@@ -224,18 +233,6 @@
                                           </div>
                                         </div>
                                       </form>
-
-                                </div>
-                                <div class="col-12">
-
-                                    <!-- star divider -->
-                                    <div class="star-divider-container px-5 px-md-0 d-flex align-items-center justify-content-between">
-                                        <div class="star-line ms-bg-color-black"></div>
-                                        <div class="col-1 text-center">
-                                            <i class="fa-solid fa-star star"></i>
-                                        </div>
-                                        <div class="star-line ms-bg-color-black"></div>
-                                    </div>
 
                                 </div>
                             </div>
@@ -252,14 +249,14 @@
                         <div class="row py-4 py-md-5 ms-txt-white text-center justify-content-center">
                             
                             <div class="col-12 col-md-4 col-lg-4 mb-3">
-                                <p class="text-uppercase">Location</p>
-                                <p>2215 John Daniel Drive Clark, MO 54243</p>
+                                <p class="text-uppercase mt-footer-title mb-2">Location</p>
+                                <p class="mt-txt">2215 John Daniel Drive Clark, MO 54243</p>
                             </div>
 
                             <div class="col-9 md-4 col-lg-4 col-md-4">
                                 <div class="container">
                                     <div class="row justify-content-center mb-4"> 
-                                        <p class="text-uppercase">Around the web</p>
+                                        <p class="text-uppercase mt-footer-title mb-2">Around the web</p>
 
                                         <div class="mx-2 mx-md-1 social-container d-flex align-items-center">
                                             <a href="" class="d-flex align-items-center">
@@ -291,8 +288,8 @@
                             </div>
 
                             <div class="col-12 col-md-4 col-lg-4">
-                                <p class="text-uppercase">About freelancer</p>
-                                <p>Freelance is a free to use, open source Bootstrap theme created by <a class="ms-link" href="">Start Bootstrap</a>.</p>
+                                <p class="text-uppercase mt-footer-title mb-2">About freelancer</p>
+                                <p class="mt-txt">Freelance is a free to use, open source Bootstrap theme created by <a class="ms-link" href="">Start Bootstrap</a>.</p>
                             </div>
                         </div>
                    </div>
