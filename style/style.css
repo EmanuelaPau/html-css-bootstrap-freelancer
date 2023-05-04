@@ -26,13 +26,13 @@
 }
 
 .star-divider-container {
-    width: 50%;
-    margin: 0 auto;
+    max-width: 350px;
+    margin: 20px auto;
 }
 
 .star-line {
     height: 4px;
-    width: 40%;
+    width: 38%;
     border-radius: 2px;
 }
 
