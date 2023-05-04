@@ -8,7 +8,7 @@
     font-size: 1.1rem;
 } */
 
-h3 {}
+
 
 /* HEADER */
 .ms-header-container {
@@ -25,9 +25,15 @@ h3 {}
     width: 100%;
 }
 
+.star-divider-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .star-line {
-    height: 3px;
-    border-radius: 1.5px;
+    height: 4px;
+    width: 40%;
+    border-radius: 2px;
 }
 
 i.star {
@@ -62,7 +68,14 @@ section.portfolio h3 {
     aspect-ratio: 1 / 1;
 }
 
-.social-container i{
+.social-container a {
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.social-container i {
     height: 1.4rem;
     font-size: 1.4rem;
     width: 100%;
